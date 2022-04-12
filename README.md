@@ -1,5 +1,9 @@
 # photo-review-flickr-mern
 
+This is API's only, there is no working frontend.
+
+Test the API's in Postman.
+
 # 🚀 Javascript full-stack 🚀
 
 ## MERN Stack
