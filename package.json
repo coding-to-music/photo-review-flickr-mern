@@ -8,11 +8,12 @@
   },
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "cross-env NODE_ENV=test jest --testTimeout=1000000 --coverage --forceExit --runInBand",
     "dev": "NODE_ENV=development nodemon index.js",
     "deva": "NODE_ENV=development node index.js",
-    "stop": "NODE_ENV=production forever stop index.js || true",
-    "start": "NODE_ENV=production forever start index.js",
+    "oldstop": "NODE_ENV=production forever stop index.js || true",
+    "oldstart": "NODE_ENV=production forever start index.js",
     "deploy": "git add . && git commit -m Heroku && git push && git push heroku && heroku logs --tail --remote heroku"
   },
   "repository": {
