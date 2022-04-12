@@ -91,6 +91,9 @@ heroku create photo-review-flickr-mern
 ```java
 heroku config:set
 
+heroku config:set MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/photo-review-flickr-mern?retryWrites=true&w=majority"
+heroku config:set SECRET_JWT="something-secret"
+
 heroku config:set PUBLIC_URL="https://photo-review-flickr-mern.herokuapp.com"
 ```
 
